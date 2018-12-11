@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.neoflex.mvc.entity.Author;
+import ru.neoflex.mvc.exception.NotFoundException;
 import ru.neoflex.mvc.repository.AuthorRepository;
 
 import javax.validation.Valid;
@@ -55,6 +56,13 @@ public class AuthorController {
             model.addAttribute("author", author.get());
             return "author/view";
         } else
-            throw new RuntimeException();
+            throw new NotFoundException();
+    }
+
+    @PostMapping("/{id}/delete")
+    public String deleteAuthor(@PathVariable Long id) {
+        authorRepository.deleteById(id);
+
+        return "redirect:/author/";
     }
 }
