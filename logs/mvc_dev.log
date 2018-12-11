@@ -1,0 +1,501 @@
+2018-12-11 19:57:26.932  INFO 7544 --- [restartedMain] ru.neoflex.mvc.MvcExampleApplication     : Starting MvcExampleApplication on ASUS with PID 7544 (D:\Programming\SpringProject\target\classes started by Ira in D:\Programming\SpringProject)
+2018-12-11 19:57:26.948  INFO 7544 --- [restartedMain] ru.neoflex.mvc.MvcExampleApplication     : No active profile set, falling back to default profiles: default
+2018-12-11 19:57:27.399  INFO 7544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-11 19:57:27.399  INFO 7544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-11 19:57:34.489  INFO 7544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-11 19:57:34.848  INFO 7544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 297ms. Found 1 repository interfaces.
+2018-12-11 19:57:36.988  INFO 7544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1da41c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-11 19:57:40.875  INFO 7544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-11 19:57:41.016  INFO 7544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-11 19:57:41.016  INFO 7544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-11 19:57:41.078  INFO 7544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\PHP7;C:\Apache24;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\ProgramData\chocolatey\bin;C:\Users\Ira\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Ira\AppData\Local\Programs\Python\Python37-32\;C:\Users\Ira\AppData\Local\Microsoft\WindowsApps;C:\Users\Ira\AppData\Local\Programs\Git\cmd;C:\Users\Ira\AppData\Roaming\npm;C:\wamp64\bin\php\php5.6.31;C:\Users\Ira\AppData\Local\ComposerSetup\bin;C:\Users\Ira\AppData\Roaming\Composer\vendor\bin;D:\Downloads\Nmap;;D:\Program Files\IntelliJ IDEA 2018.3.1\bin;;.]
+2018-12-11 19:57:41.828  INFO 7544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-11 19:57:41.828 DEBUG 7544 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-12-11 19:57:41.844  INFO 7544 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14445 ms
+2018-12-11 19:57:42.547  INFO 7544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-11 19:57:43.187  INFO 7544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-11 19:57:43.515 DEBUG 7544 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2b7b454c
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (HikariPool-1)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/Programming/SpringProject/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		ru.neoflex.mvc.entity.Author]
+	Mapping files names []
+	Properties []
+2018-12-11 19:57:43.672 DEBUG 7544 --- [restartedMain] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2018-12-11 19:57:43.672 DEBUG 7544 --- [restartedMain] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2018-12-11 19:57:44.344 DEBUG 7544 --- [restartedMain] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2018-12-11 19:57:44.843  INFO 7544 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-11 19:57:44.859  INFO 7544 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-11 19:57:45.578 DEBUG 7544 --- [restartedMain] o.hibernate.service.spi.ServiceBinding   : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2018-12-11 19:57:45.718 DEBUG 7544 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2018-12-11 19:57:45.734 DEBUG 7544 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2018-12-11 19:57:45.812  INFO 7544 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-11 19:57:45.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@30acf3ad
+2018-12-11 19:57:46.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@30acf3ad
+2018-12-11 19:57:46.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@30acf3ad
+2018-12-11 19:57:46.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@285fafa6
+2018-12-11 19:57:46.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@480771f7
+2018-12-11 19:57:46.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@1294d6ac
+2018-12-11 19:57:46.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@2c7ff006
+2018-12-11 19:57:46.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@2c7ff006
+2018-12-11 19:57:46.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@2c7ff006
+2018-12-11 19:57:46.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@b17b21c
+2018-12-11 19:57:46.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@b17b21c
+2018-12-11 19:57:46.093 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@b17b21c
+2018-12-11 19:57:46.109 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@3a200ba8
+2018-12-11 19:57:46.109 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@3a200ba8
+2018-12-11 19:57:46.109 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3a200ba8
+2018-12-11 19:57:46.109 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@20e43d89
+2018-12-11 19:57:46.109 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@20e43d89
+2018-12-11 19:57:46.156 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@20e43d89
+2018-12-11 19:57:46.172 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@3d5e13d0
+2018-12-11 19:57:46.172 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@3d5e13d0
+2018-12-11 19:57:46.172 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@3d5e13d0
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@aa8f09a
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@aa8f09a
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@aa8f09a
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@1ca85100
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@1ca85100
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1ca85100
+2018-12-11 19:57:46.187 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@716aca82
+2018-12-11 19:57:46.203 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@716aca82
+2018-12-11 19:57:46.218 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@25096513
+2018-12-11 19:57:46.218 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@25096513
+2018-12-11 19:57:46.218 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@4e21d10b
+2018-12-11 19:57:46.218 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@4e21d10b
+2018-12-11 19:57:46.218 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@8fefb18
+2018-12-11 19:57:46.218 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@257a19aa
+2018-12-11 19:57:46.234 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@6c98d76e
+2018-12-11 19:57:46.234 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@6c98d76e
+2018-12-11 19:57:46.234 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@549f5f54
+2018-12-11 19:57:46.234 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@549f5f54
+2018-12-11 19:57:46.250 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@138130f
+2018-12-11 19:57:46.250 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@138130f
+2018-12-11 19:57:46.250 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@616ddc1a
+2018-12-11 19:57:46.265 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@616ddc1a
+2018-12-11 19:57:46.265 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7ddbede8
+2018-12-11 19:57:46.265 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7ddbede8
+2018-12-11 19:57:46.265 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@4d44e9fa
+2018-12-11 19:57:46.265 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@4d44e9fa
+2018-12-11 19:57:46.281 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@21554bdc
+2018-12-11 19:57:46.281 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@21554bdc
+2018-12-11 19:57:46.281 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2b533bf9
+2018-12-11 19:57:46.281 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@2b533bf9
+2018-12-11 19:57:46.297 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6f4f86ae
+2018-12-11 19:57:46.297 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6f4f86ae
+2018-12-11 19:57:46.390 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@25c964d5
+2018-12-11 19:57:46.390 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@25c964d5
+2018-12-11 19:57:46.390 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@39ef92db
+2018-12-11 19:57:46.390 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@39ef92db
+2018-12-11 19:57:46.406 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@297637dc
+2018-12-11 19:57:46.422 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@297637dc
+2018-12-11 19:57:46.437 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@297637dc
+2018-12-11 19:57:46.453 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@15b6e310
+2018-12-11 19:57:46.453 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@27963f4f
+2018-12-11 19:57:46.453 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@27963f4f
+2018-12-11 19:57:46.453 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@27963f4f
+2018-12-11 19:57:46.453 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1cde25ee
+2018-12-11 19:57:46.468 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@26339bf3
+2018-12-11 19:57:46.484 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@26339bf3
+2018-12-11 19:57:46.500 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@67db8eac
+2018-12-11 19:57:46.500 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@67db8eac
+2018-12-11 19:57:46.500 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@5543a307
+2018-12-11 19:57:46.515 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5543a307
+2018-12-11 19:57:46.515 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@e34e583
+2018-12-11 19:57:46.515 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@e34e583
+2018-12-11 19:57:46.515 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@23244251
+2018-12-11 19:57:46.515 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@23244251
+2018-12-11 19:57:46.515 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@18845318
+2018-12-11 19:57:46.531 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@11d5808d
+2018-12-11 19:57:46.546 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@11d5808d
+2018-12-11 19:57:46.546 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@11d5808d
+2018-12-11 19:57:47.937 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@43ff9018
+2018-12-11 19:57:47.953 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@43ff9018
+2018-12-11 19:57:47.953 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@43ff9018
+2018-12-11 19:57:47.953 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@ece3fb
+2018-12-11 19:57:47.953 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@22826e9d
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@b65541c
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@b65541c
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@b65541c
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@e3a5745
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@e3a5745
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@e3a5745
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@fcbe665
+2018-12-11 19:57:47.984 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@62d40630
+2018-12-11 19:57:48.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@2a7c6a73
+2018-12-11 19:57:48.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2a7c6a73
+2018-12-11 19:57:48.000 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@45d848e7
+2018-12-11 19:57:48.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@5c0fdb1
+2018-12-11 19:57:48.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5c0fdb1
+2018-12-11 19:57:48.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@79293e83
+2018-12-11 19:57:48.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@79293e83
+2018-12-11 19:57:48.015 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4021ec60
+2018-12-11 19:57:48.031 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@67d9adf7
+2018-12-11 19:57:48.031 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@24682b01
+2018-12-11 19:57:48.062 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@2f84bf48
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2f84bf48
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5f755562
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5581cf3b
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3da57a87
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4c1a5fc9
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@39b1dd6d
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@62122577
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@74f50af0
+2018-12-11 19:57:48.078 DEBUG 7544 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6a0ff7b0
+2018-12-11 19:57:48.140 DEBUG 7544 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@617a1591] into BootstrapContext; was [null]
+2018-12-11 19:57:48.140 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@617a1591) [was null]
+2018-12-11 19:57:48.140 DEBUG 7544 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@4f0cb1af] into BootstrapContext; was [null]
+2018-12-11 19:57:48.140 DEBUG 7544 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@7e6be342] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3c564953]
+2018-12-11 19:57:48.437 DEBUG 7544 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@617a1591]
+2018-12-11 19:57:48.437 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@617a1591]
+2018-12-11 19:57:48.484 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2018-12-11 19:57:48.484 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2018-12-11 19:57:48.484 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2018-12-11 19:57:48.484 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2018-12-11 19:57:48.484 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2018-12-11 19:57:48.500 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2018-12-11 19:57:48.500 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2018-12-11 19:57:48.500 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-12-11 19:57:48.500 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2018-12-11 19:57:48.515 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2018-12-11 19:57:48.515 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2018-12-11 19:57:48.515 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2018-12-11 19:57:48.515 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-12-11 19:57:48.515 DEBUG 7544 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2018-12-11 19:57:48.546 DEBUG 7544 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Database ->
+       name : H2
+    version : 1.4.197 (2018-03-18)
+      major : 1
+      minor : 4
+2018-12-11 19:57:48.546 DEBUG 7544 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Driver ->
+       name : H2 JDBC Driver
+    version : 1.4.197 (2018-03-18)
+      major : 1
+      minor : 4
+2018-12-11 19:57:48.546 DEBUG 7544 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : JDBC version : 4.0
+2018-12-11 19:57:48.609  INFO 7544 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-11 19:57:49.046 DEBUG 7544 --- [restartedMain] o.h.boot.model.relational.Namespace      : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2018-12-11 19:57:49.078 DEBUG 7544 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@42999416] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4118773d]
+2018-12-11 19:57:49.296 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: ru.neoflex.mvc.entity.Author
+2018-12-11 19:57:49.374 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-12-11 19:57:49.406 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.EntityBinder         : Import with entity name Author
+2018-12-11 19:57:49.421 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.EntityBinder         : Bind entity ru.neoflex.mvc.entity.Author on table author
+2018-12-11 19:57:49.531 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2018-12-11 19:57:49.531 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property id with lazy=false
+2018-12-11 19:57:49.546 DEBUG 7544 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [ru.neoflex.mvc.entity.Author:id]
+2018-12-11 19:57:49.546 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for id
+2018-12-11 19:57:49.562 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property id
+2018-12-11 19:57:49.562 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2018-12-11 19:57:49.562 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=true}
+2018-12-11 19:57:49.578 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property name with lazy=false
+2018-12-11 19:57:49.578 DEBUG 7544 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [ru.neoflex.mvc.entity.Author:name]
+2018-12-11 19:57:49.578 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for name
+2018-12-11 19:57:49.578 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property name
+2018-12-11 19:57:49.578 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for id
+2018-12-11 19:57:49.578 DEBUG 7544 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for name
+2018-12-11 19:57:49.593 DEBUG 7544 --- [restartedMain] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [author]
+2018-12-11 19:57:49.687 DEBUG 7544 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Building session factory
+2018-12-11 19:57:49.687 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : SessionFactory name : null
+2018-12-11 19:57:49.687 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic flush during beforeCompletion(): enabled
+2018-12-11 19:57:49.687 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic session close at end of transaction: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Statistics: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Deleted entity synthetic identifier rollback: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Default entity-mode: pojo
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Allow initialization of lazy state outside session : disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Using BatchFetchStyle : LEGACY
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Default batch fetch size: -1
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Maximum outer join fetch depth: null
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Default null ordering: NONE
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Order SQL updates by primary key: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Order SQL inserts for batching: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : multi-tenancy strategy : NONE
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JTA Track by Thread: enabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Query language substitutions: {}
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Named query checking : enabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level query cache: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level query cache factory: null
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache region prefix: null
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Optimize second-level cache for minimal puts: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Structured second-level cache entries: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache direct-reference entries: disabled
+2018-12-11 19:57:49.703 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic eviction of collection cache: disabled
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC batch size: 15
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC batch updates for versioned data: enabled
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Scrollable result sets: enabled
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Wrap result sets: disabled
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC3 getGeneratedKeys(): enabled
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC result set fetch size: null
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Connection release mode: ON_CLOSE
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : Generate SQL with comments: disabled
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - query : 
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - closed-handling : 
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - lists : 
+2018-12-11 19:57:49.718 DEBUG 7544 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - transactions : 
+2018-12-11 19:57:49.999 DEBUG 7544 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Session factory constructed with filter configurations : {}
+2018-12-11 19:57:49.999 DEBUG 7544 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@7ab36e32, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;D:\Programming\SpringProject\target\classes;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.1.RELEASE\spring-boot-starter-web-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.1.RELEASE\spring-boot-starter-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.1.RELEASE\spring-boot-starter-logging-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Ira\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Ira\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.1\log4j-to-slf4j-2.11.1.jar;C:\Users\Ira\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\Ira\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Ira\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Ira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.1.RELEASE\spring-boot-starter-json-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\Ira\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Ira\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\Ira\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.7\jackson-datatype-jdk8-2.9.7.jar;C:\Users\Ira\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.7\jackson-datatype-jsr310-2.9.7.jar;C:\Users\Ira\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.7\jackson-module-parameter-names-2.9.7.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.1.RELEASE\spring-boot-starter-tomcat-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.13\tomcat-embed-core-9.0.13.jar;C:\Users\Ira\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.13\tomcat-embed-el-9.0.13.jar;C:\Users\Ira\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.13\tomcat-embed-websocket-9.0.13.jar;C:\Users\Ira\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.13.Final\hibernate-validator-6.0.13.Final.jar;C:\Users\Ira\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Ira\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Ira\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-web\5.1.3.RELEASE\spring-web-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-beans\5.1.3.RELEASE\spring-beans-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-webmvc\5.1.3.RELEASE\spring-webmvc-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-aop\5.1.3.RELEASE\spring-aop-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-context\5.1.3.RELEASE\spring-context-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-expression\5.1.3.RELEASE\spring-expression-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.1.1.RELEASE\spring-boot-starter-thymeleaf-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar;C:\Users\Ira\.m2\repository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar;C:\Users\Ira\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\Ira\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Ira\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Ira\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.2.RELEASE\thymeleaf-extras-java8time-3.0.2.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-devtools\2.1.1.RELEASE\spring-boot-devtools-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot\2.1.1.RELEASE\spring-boot-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.1.RELEASE\spring-boot-autoconfigure-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\Ira\.m2\repository\org\webjars\bootstrap\3.3.7\bootstrap-3.3.7.jar;C:\Users\Ira\.m2\repository\org\webjars\jquery\3.2.1\jquery-3.2.1.jar;C:\Users\Ira\.m2\repository\net\bytebuddy\byte-buddy\1.9.5\byte-buddy-1.9.5.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-core\5.1.3.RELEASE\spring-core-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-jcl\5.1.3.RELEASE\spring-jcl-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.1.RELEASE\spring-boot-starter-data-jpa-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.1.RELEASE\spring-boot-starter-aop-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\org\aspectj\aspectjweaver\1.9.2\aspectjweaver-1.9.2.jar;C:\Users\Ira\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.1.RELEASE\spring-boot-starter-jdbc-2.1.1.RELEASE.jar;C:\Users\Ira\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-jdbc\5.1.3.RELEASE\spring-jdbc-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\Ira\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Ira\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Ira\.m2\repository\org\hibernate\hibernate-core\5.3.7.Final\hibernate-core-5.3.7.Final.jar;C:\Users\Ira\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Ira\.m2\repository\org\javassist\javassist\3.23.1-GA\javassist-3.23.1-GA.jar;C:\Users\Ira\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Ira\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\Ira\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\Ira\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\Ira\.m2\repository\org\springframework\data\spring-data-jpa\2.1.3.RELEASE\spring-data-jpa-2.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\data\spring-data-commons\2.1.3.RELEASE\spring-data-commons-2.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-orm\5.1.3.RELEASE\spring-orm-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-tx\5.1.3.RELEASE\spring-tx-5.1.3.RELEASE.jar;C:\Users\Ira\.m2\repository\org\springframework\spring-aspects\5.1.3.RELEASE\spring-aspects-5.1.3.RELEASE.jar;D:\Program Files\IntelliJ IDEA 2018.3.1\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, catalina.useNaming=false, java.vendor.url=http://java.oracle.com/, user.timezone=Indian/Mauritius, os.name=Windows 10, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_121\jre\bin, sun.java.command=ru.neoflex.mvc.MvcExampleApplication, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@237dd66c, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\Ira, user.language=ru, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jdk1.8.0_121\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_121-b13, user.name=Ira, path.separator=;, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.ejb.persistenceUnitName=default, file.encoding=UTF-8, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, LOG_FILE=logs/mvc_dev.log, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\Ira\AppData\Local\Temp\, com.zaxxer.hikari.pool_number=1, catalina.home=C:\Users\Ira\AppData\Local\Temp\tomcat.7949803082543395402.8080, java.version=1.8.0_121, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=D:\Programming\SpringProject, os.arch=amd64, PID=7544, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, catalina.base=C:\Users\Ira\AppData\Local\Temp\tomcat.7949803082543395402.8080, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@4256dce3, java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\PHP7;C:\Apache24;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\ProgramData\chocolatey\bin;C:\Users\Ira\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Ira\AppData\Local\Programs\Python\Python37-32\;C:\Users\Ira\AppData\Local\Microsoft\WindowsApps;C:\Users\Ira\AppData\Local\Programs\Git\cmd;C:\Users\Ira\AppData\Roaming\npm;C:\wamp64\bin\php\php5.6.31;C:\Users\Ira\AppData\Local\ComposerSetup\bin;C:\Users\Ira\AppData\Roaming\Composer\vendor\bin;D:\Downloads\Nmap;;D:\Program Files\IntelliJ IDEA 2018.3.1\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.121-b13, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=HikariDataSource (HikariPool-1), sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, java.class.version=52.0}
+2018-12-11 19:57:50.046 DEBUG 7544 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-12-11 19:57:50.046 DEBUG 7544 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-12-11 19:57:50.046 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-11 19:57:50.046 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-12-11 19:57:50.046 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-11 19:57:50.046 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-11 19:57:50.078 DEBUG 7544 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-12-11 19:57:50.078 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-12-11 19:57:50.078 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-12-11 19:57:50.078 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-12-11 19:57:50.078 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-12-11 19:57:50.078 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-12-11 19:57:50.093 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [ru.neoflex.mvc.entity.Author] is safe
+2018-12-11 19:57:50.093 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.neoflex.mvc.entity.Author
+2018-12-11 19:57:50.265 DEBUG 7544 --- [restartedMain] org.hibernate.secure.spi.JaccIntegrator  : Skipping JACC integration as it was not enabled
+2018-12-11 19:57:50.265 DEBUG 7544 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Instantiated session factory
+2018-12-11 19:57:50.265 DEBUG 7544 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@42999416] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@139f8413]
+2018-12-11 19:57:50.421 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [ru.neoflex.mvc.entity.Author] is safe
+2018-12-11 19:57:50.421 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.neoflex.mvc.entity.Author
+2018-12-11 19:57:50.484 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [ru.neoflex.mvc.entity.Author] is safe
+2018-12-11 19:57:50.484 DEBUG 7544 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.neoflex.mvc.entity.Author
+2018-12-11 19:57:51.296 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Static SQL for entity: ru.neoflex.mvc.entity.Author
+2018-12-11 19:57:51.296 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Version select: select id from author where id =?
+2018-12-11 19:57:51.296 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Snapshot select: select author_.id, author_.name as name2_0_ from author author_ where author_.id=?
+2018-12-11 19:57:51.296 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Insert 0: insert into author (name, id) values (?, ?)
+2018-12-11 19:57:51.296 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Update 0: update author set name=? where id=?
+2018-12-11 19:57:51.296 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Delete 0: delete from author where id=?
+2018-12-11 19:57:51.312 DEBUG 7544 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Identity insert: insert into author (id, name) values (null, ?)
+2018-12-11 19:57:51.406 DEBUG 7544 --- [restartedMain] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@105f87f9]
+2018-12-11 19:57:51.421 DEBUG 7544 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : name
+2018-12-11 19:57:51.421 DEBUG 7544 --- [restartedMain] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2018-12-11 19:57:51.468 DEBUG 7544 --- [restartedMain] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2018-12-11 19:57:51.484 DEBUG 7544 --- [restartedMain] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=ru.neoflex.mvc.entity.Author)
+    - Returns
+       - EntityReturnImpl(entity=ru.neoflex.mvc.entity.Author, querySpaceUid=<gen:0>, path=ru.neoflex.mvc.entity.Author)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.neoflex.mvc.entity.Author)
+          - SQL table alias mapping - author0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] o.h.loader.entity.plan.EntityLoader      : Static select for entity ru.neoflex.mvc.entity.Author [NONE]: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a4d784d]
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : name
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=ru.neoflex.mvc.entity.Author)
+    - Returns
+       - EntityReturnImpl(entity=ru.neoflex.mvc.entity.Author, querySpaceUid=<gen:0>, path=ru.neoflex.mvc.entity.Author)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.neoflex.mvc.entity.Author)
+          - SQL table alias mapping - author0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-12-11 19:57:51.499 DEBUG 7544 --- [restartedMain] o.h.loader.entity.plan.EntityLoader      : Static select for entity ru.neoflex.mvc.entity.Author [READ]: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+2018-12-11 19:57:51.562 DEBUG 7544 --- [restartedMain] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity ru.neoflex.mvc.entity.Author: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+2018-12-11 19:57:51.562 DEBUG 7544 --- [restartedMain] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity ru.neoflex.mvc.entity.Author: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+2018-12-11 19:57:52.124 DEBUG 7544 --- [restartedMain] org.hibernate.SQL                        : create table author (id bigint generated by default as identity, name varchar(30) not null, primary key (id))
+2018-12-11 19:57:52.156 DEBUG 7544 --- [restartedMain] org.hibernate.SQL                        : alter table author drop constraint if exists UK_or6k6jmywerxbme223c988bmg
+2018-12-11 19:57:52.156 DEBUG 7544 --- [restartedMain] org.hibernate.SQL                        : alter table author add constraint UK_or6k6jmywerxbme223c988bmg unique (name)
+2018-12-11 19:57:52.171 DEBUG 7544 --- [restartedMain] o.h.query.spi.NamedQueryRepository       : Checking 0 named HQL queries
+2018-12-11 19:57:52.171 DEBUG 7544 --- [restartedMain] o.h.query.spi.NamedQueryRepository       : Checking 0 named SQL queries
+2018-12-11 19:57:52.187 DEBUG 7544 --- [restartedMain] o.h.internal.SessionFactoryRegistry      : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@31a2a5d5
+2018-12-11 19:57:52.187 DEBUG 7544 --- [restartedMain] o.h.internal.SessionFactoryRegistry      : Registering SessionFactory: 4eae59e2-d4c0-468c-9cdc-6b353f23afbf (<unnamed>)
+2018-12-11 19:57:52.187 DEBUG 7544 --- [restartedMain] o.h.internal.SessionFactoryRegistry      : Not binding SessionFactory to JNDI, no JNDI name configured
+2018-12-11 19:57:52.187  INFO 7544 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-11 19:57:52.281  INFO 7544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-11 19:57:52.968 DEBUG 7544 --- [restartedMain] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=false]
+2018-12-11 19:57:53.582 DEBUG 7544 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-12-11 19:57:53.582 DEBUG 7544 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-12-11 19:57:53.582 DEBUG 7544 --- [restartedMain] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-12-11 19:57:53.582 DEBUG 7544 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-12-11 19:57:53.582 DEBUG 7544 --- [restartedMain] o.h.v.i.e.resolver.TraversableResolvers  : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-12-11 19:57:53.582 DEBUG 7544 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-11 19:57:53.598 DEBUG 7544 --- [restartedMain] o.h.v.i.xml.config.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-11 19:57:53.614 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-12-11 19:57:53.629 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-12-11 19:57:53.629 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-12-11 19:57:53.629 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-12-11 19:57:53.629 DEBUG 7544 --- [restartedMain] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-12-11 19:57:53.770 DEBUG 7544 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-12-11 19:57:54.551  INFO 7544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-11 19:57:54.598 DEBUG 7544 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-12-11 19:57:54.754  WARN 7544 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-11 19:57:54.973 DEBUG 7544 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2018-12-11 19:57:55.629 DEBUG 7544 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-12-11 19:57:55.676 DEBUG 7544 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-12-11 19:57:55.988  INFO 7544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-12-11 19:57:56.759  INFO 7544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-11 19:57:56.767  INFO 7544 --- [restartedMain] ru.neoflex.mvc.MvcExampleApplication     : Started MvcExampleApplication in 33.583 seconds (JVM running for 40.703)
+2018-12-11 20:07:27.529  INFO 7544 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-11 20:07:27.533  INFO 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-11 20:07:27.533 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2018-12-11 20:07:27.625 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2018-12-11 20:07:27.625  INFO 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 92 ms
+2018-12-11 20:07:27.713 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2018-12-11 20:07:27.749 DEBUG 7544 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String ru.neoflex.mvc.controller.IndexController.index(org.springframework.ui.ModelMap)
+2018-12-11 20:07:28.056 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2018-12-11 20:07:29.576 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:29.696 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/theme.css", parameters={}
+2018-12-11 20:07:29.712 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-12-11 20:07:29.716 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2018-12-11 20:07:29.720 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2018-12-11 20:07:29.720 DEBUG 7544 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/3.3.7/css/bootstrap.min.css", parameters={}
+2018-12-11 20:07:29.728 DEBUG 7544 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.2.1/jquery.min.js", parameters={}
+2018-12-11 20:07:29.732 DEBUG 7544 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2018-12-11 20:07:29.764 DEBUG 7544 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2018-12-11 20:07:29.780 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/3.3.7/js/bootstrap.min.js", parameters={}
+2018-12-11 20:07:29.784 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2018-12-11 20:07:29.884 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2018-12-11 20:07:29.912 DEBUG 7544 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-11 20:07:29.980 DEBUG 7544 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:30.004 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:30.028 DEBUG 7544 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:30.088 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-12-11 20:07:30.092 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Dec 11 20:07:29 MUT 2018, status=404, error=Not Found, message=No message available, path=/css/theme.css}]
+2018-12-11 20:07:30.352 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2018-12-11 20:07:30.756 DEBUG 7544 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2018-12-11 20:07:30.756 DEBUG 7544 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2018-12-11 20:07:30.916 DEBUG 7544 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:33.569 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/theme/", parameters={}
+2018-12-11 20:07:33.573 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-12-11 20:07:33.589 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2018-12-11 20:07:33.589 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2018-12-11 20:07:33.589 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2018-12-11 20:07:33.597 DEBUG 7544 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-11 20:07:33.621 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2018-12-11 20:07:33.633 DEBUG 7544 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2018-12-11 20:07:38.233 DEBUG 7544 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/author/", parameters={}
+2018-12-11 20:07:38.241 DEBUG 7544 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String ru.neoflex.mvc.controller.AuthorController.list(org.springframework.ui.ModelMap)
+2018-12-11 20:07:38.321 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2018-12-11 20:07:38.321 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.e.t.internal.TransactionImpl         : begin
+2018-12-11 20:07:38.453 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.q.c.internal.CriteriaQueryImpl       : Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0
+2018-12-11 20:07:38.549 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@1b24942c
+2018-12-11 20:07:38.549  INFO 7544 --- [http-nio-8080-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-11 20:07:38.701 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.internal.ast.QueryTranslatorImpl   : parse() - HQL: select generatedAlias0 from ru.neoflex.mvc.entity.Author as generatedAlias0
+2018-12-11 20:07:38.737 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2018-12-11 20:07:38.773 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.internal.ast.QueryTranslatorImpl   : --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'ru'
+       |     |  |  |  |  \-[IDENT] Node: 'neoflex'
+       |     |  |  |  \-[IDENT] Node: 'mvc'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Author'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2018-12-11 20:07:38.961 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select << begin [level=1, statement=select]
+2018-12-11 20:07:39.029 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.ast.tree.FromElement    : FromClause{level=1} : ru.neoflex.mvc.entity.Author (generatedAlias0) -> author0_
+2018-12-11 20:07:39.033 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.i.ast.tree.FromReferenceNode       : Resolved : generatedAlias0 -> author0_.id
+2018-12-11 20:07:39.045 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select : finishing up [level=1, statement=select]
+2018-12-11 20:07:39.045 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.ast.HqlSqlWalker        : processQuery() :  ( SELECT ( {select clause} author0_.id ) ( FromClause{level=1} author author0_ ) )
+2018-12-11 20:07:39.085 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.ast.util.JoinProcessor  : Using FROM fragment [author author0_]
+2018-12-11 20:07:39.089 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select >> end [level=1, statement=select]
+2018-12-11 20:07:39.093 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.internal.ast.QueryTranslatorImpl   : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (author)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'author0_.id as id1_0_' {alias=generatedAlias0, className=ru.neoflex.mvc.entity.Author, tableAlias=author0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'author0_.name as name2_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[author0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'author author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=author,tableAlias=author0_,origin=null,columns={,className=ru.neoflex.mvc.entity.Author}}
+
+2018-12-11 20:07:39.105 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2018-12-11 20:07:39.129 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.internal.ast.QueryTranslatorImpl   : HQL: select generatedAlias0 from ru.neoflex.mvc.entity.Author as generatedAlias0
+2018-12-11 20:07:39.129 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.h.internal.ast.QueryTranslatorImpl   : SQL: select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_
+2018-12-11 20:07:39.133 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2018-12-11 20:07:39.253 DEBUG 7544 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_
+2018-12-11 20:07:39.381 DEBUG 7544 --- [http-nio-8080-exec-7] o.h.e.t.internal.TransactionImpl         : committing
+2018-12-11 20:07:39.389 DEBUG 7544 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2018-12-11 20:07:39.721 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/theme.css", parameters={}
+2018-12-11 20:07:39.725 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-12-11 20:07:39.729 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2018-12-11 20:07:39.729 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2018-12-11 20:07:39.733 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2018-12-11 20:07:39.737 DEBUG 7544 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-11 20:07:39.741 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-12-11 20:07:39.745 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Dec 11 20:07:39 MUT 2018, status=404, error=Not Found, message=No message available, path=/css/theme.css}]
+2018-12-11 20:07:39.749 DEBUG 7544 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2018-12-11 20:07:39.761 DEBUG 7544 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:41.928 DEBUG 7544 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/author/add", parameters={}
+2018-12-11 20:07:41.932 DEBUG 7544 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String ru.neoflex.mvc.controller.AuthorController.add(org.springframework.ui.ModelMap)
+2018-12-11 20:07:41.964 DEBUG 7544 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2018-12-11 20:07:42.216 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/theme.css", parameters={}
+2018-12-11 20:07:42.220 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-12-11 20:07:42.224 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2018-12-11 20:07:42.228 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2018-12-11 20:07:42.236 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2018-12-11 20:07:42.240 DEBUG 7544 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-11 20:07:42.244 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-12-11 20:07:42.244 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Dec 11 20:07:42 MUT 2018, status=404, error=Not Found, message=No message available, path=/css/theme.css}]
+2018-12-11 20:07:42.252 DEBUG 7544 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2018-12-11 20:07:42.256 DEBUG 7544 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:47.734 DEBUG 7544 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/author/add", parameters={masked}
+2018-12-11 20:07:47.738 DEBUG 7544 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String ru.neoflex.mvc.controller.AuthorController.add(ru.neoflex.mvc.entity.Author,org.springframework.validation.BindingResult)
+2018-12-11 20:07:47.962 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2018-12-11 20:07:47.962 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.t.internal.TransactionImpl         : begin
+2018-12-11 20:07:48.146 DEBUG 7544 --- [http-nio-8080-exec-3] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2018-12-11 20:07:48.194 DEBUG 7544 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : insert into author (id, name) values (null, ?)
+2018-12-11 20:07:48.254 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 1
+2018-12-11 20:07:48.266 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2018-12-11 20:07:48.274 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.t.internal.TransactionImpl         : committing
+2018-12-11 20:07:48.274 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.i.AbstractFlushingEventListener    : Processing flush-time cascades
+2018-12-11 20:07:48.282 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.i.AbstractFlushingEventListener    : Dirty checking collections
+2018-12-11 20:07:48.290 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2018-12-11 20:07:48.290 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2018-12-11 20:07:48.298 DEBUG 7544 --- [http-nio-8080-exec-3] o.hibernate.internal.util.EntityPrinter  : Listing entities:
+2018-12-11 20:07:48.298 DEBUG 7544 --- [http-nio-8080-exec-3] o.hibernate.internal.util.EntityPrinter  : ru.neoflex.mvc.entity.Author{name=ded, id=1}
+2018-12-11 20:07:48.314 DEBUG 7544 --- [http-nio-8080-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:/author/', model {}
+2018-12-11 20:07:48.322 DEBUG 7544 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2018-12-11 20:07:48.346 DEBUG 7544 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/author/", parameters={}
+2018-12-11 20:07:48.354 DEBUG 7544 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String ru.neoflex.mvc.controller.AuthorController.list(org.springframework.ui.ModelMap)
+2018-12-11 20:07:48.354 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2018-12-11 20:07:48.354 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.t.internal.TransactionImpl         : begin
+2018-12-11 20:07:48.354 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.q.c.internal.CriteriaQueryImpl       : Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0
+2018-12-11 20:07:48.358 DEBUG 7544 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_
+2018-12-11 20:07:48.358 DEBUG 7544 --- [http-nio-8080-exec-3] org.hibernate.loader.Loader              : Result set row: 0
+2018-12-11 20:07:48.366 DEBUG 7544 --- [http-nio-8080-exec-3] org.hibernate.loader.Loader              : Result row: EntityKey[ru.neoflex.mvc.entity.Author#1]
+2018-12-11 20:07:48.374 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [ru.neoflex.mvc.entity.Author#1]
+2018-12-11 20:07:48.374 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [ru.neoflex.mvc.entity.Author#1]
+2018-12-11 20:07:48.374 DEBUG 7544 --- [http-nio-8080-exec-3] o.h.e.t.internal.TransactionImpl         : committing
+2018-12-11 20:07:48.382 DEBUG 7544 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2018-12-11 20:07:48.598 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/theme.css", parameters={}
+2018-12-11 20:07:48.610 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-12-11 20:07:48.614 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2018-12-11 20:07:48.614 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2018-12-11 20:07:48.614 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2018-12-11 20:07:48.618 DEBUG 7544 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-11 20:07:48.630 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-12-11 20:07:48.630 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Dec 11 20:07:48 MUT 2018, status=404, error=Not Found, message=No message available, path=/css/theme.css}]
+2018-12-11 20:07:48.634 DEBUG 7544 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2018-12-11 20:07:48.642 DEBUG 7544 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2018-12-11 20:07:50.061 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/author/1/", parameters={}
+2018-12-11 20:07:50.077 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2018-12-11 20:07:50.081 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2018-12-11 20:07:50.081 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2018-12-11 20:07:50.081 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2018-12-11 20:07:50.085 DEBUG 7544 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-11 20:07:50.117 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2018-12-11 20:07:50.117 DEBUG 7544 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
