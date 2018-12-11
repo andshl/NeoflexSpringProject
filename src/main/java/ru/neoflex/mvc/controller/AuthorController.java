@@ -59,6 +59,18 @@ public class AuthorController {
             throw new NotFoundException();
     }
 
+    //TODO: make show by name always
+    @GetMapping("/view/{name}")
+    public String showAuthorByName(@PathVariable String name, ModelMap model) {
+        Author author = authorRepository.findByName(name);
+
+        if (null != author) {
+            model.addAttribute("author", author);
+            return "author/view";
+        } else
+            throw new NotFoundException();
+    }
+
     @PostMapping("/{id}/delete")
     public String deleteAuthor(@PathVariable Long id) {
         authorRepository.deleteById(id);
