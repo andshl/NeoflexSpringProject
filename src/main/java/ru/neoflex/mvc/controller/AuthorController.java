@@ -11,6 +11,7 @@ import ru.neoflex.mvc.entity.Author;
 import ru.neoflex.mvc.repository.AuthorRepository;
 
 import javax.validation.Valid;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("/author")
@@ -46,5 +47,14 @@ public class AuthorController {
         return "redirect:/author/";
     }
 
+    @GetMapping("/{id}")
+    public String showAuthor(@PathVariable Long id, ModelMap model) {
+        Optional<Author> author = authorRepository.findById(id);
 
+        if (author.isPresent()) {
+            model.addAttribute("author", author.get());
+            return "author/view";
+        } else
+            throw new RuntimeException();
+    }
 }
