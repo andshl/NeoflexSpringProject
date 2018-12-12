@@ -5,13 +5,13 @@
 <body>
 <div th:fragment="content">
     <div class="page-header">
-        <h3>New Author</h3>
+        <h3>New Theme</h3>
     </div>
-    <form th:action="@{/author/add}" th:object="${author}" method="POST">
+    <form th:action="@{/theme/add}" th:object="${theme}" method="POST">
         <input type="hidden" th:field="*{id}" />
 
         <div class="form-group">
-            <label for="title">Author Name</label>
+            <label for="title">Theme Title</label>
             <input type="text" class="form-control" id="title" th:field="*{title}" />
             <ul>
                 <li th:each="err : ${#fields.errors('title')}" th:text="${err}"></li>
