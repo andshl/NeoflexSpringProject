@@ -24,4 +24,19 @@ public class UserServiceImplementation implements UserService {
 
         return user;
     }
+
+    @Override
+    public User signupUser(User user) {
+        return null;
+    }
+
+    @Override
+    public User getCurrentUser() {
+        return null;
+    }
+
+    @Override
+    public boolean hasRole(String role) {
+        return false;
+    }
 }
