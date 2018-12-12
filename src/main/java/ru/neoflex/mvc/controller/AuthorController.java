@@ -1,5 +1,6 @@
 package ru.neoflex.mvc.controller;
 
+import lombok.extern.java.Log;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -14,6 +15,7 @@ import ru.neoflex.mvc.repository.AuthorRepository;
 import javax.validation.Valid;
 import java.util.Optional;
 
+@Log
 @Controller
 @RequestMapping("/author")
 public class AuthorController {
