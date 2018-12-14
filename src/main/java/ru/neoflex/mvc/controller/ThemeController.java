@@ -1,5 +1,6 @@
 package ru.neoflex.mvc.controller;
 
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -26,7 +27,10 @@ public class ThemeController {
 
     @GetMapping
     public String list(ModelMap model) {
-        model.addAttribute("themes", themeRepository.findAll());
+        //Sort.Order sortOrder = new Sort.Order(Sort.Direction.ASC, "title");
+        //model.addAttribute("themes", themeRepository.findAll(Sort.by(sortOrder)));
+
+        model.addAttribute("themes", themeRepository.findByIdBetween((long)2, (long)4));
         return "theme/list";
     }
 

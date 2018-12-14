@@ -11,11 +11,13 @@
     <table class="table table-striped">
         <thead>
         <tr>
+            <th>Theme ID</th>
             <th>Theme</th>
         </tr>
         </thead>
         <tbody>
         <tr th:each="theme : ${themes}">
+            <td th:text="${theme.id}"></td>
             <td><a th:href="@{/theme/{id}/(id=${theme.id})}" th:text="${theme.title}"/></td>
         </tr>
         </tbody>
